@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Helvetica Light';
+	margin: 0;
+	font-size: 16px;
+	overflow: hidden;
+	letter-spacing: .14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+i {
+	cursor: pointer;
+}
+
+input{
+	outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #31b0d5;
+}
+
+.data-mednefits-box {
+	display: block;
+	padding: 20px 20px 60px 20px;
+	margin: 20px;
+	background-color: #fff;
+	/*border: solid 1px #eae7e7;*/
+  /*box-shadow: 2px 2px 2px 0px rgba(185,185,185,.5);*/
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+  position: relative;
+}
+.data-mednefits-box > div > h4{
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+
+/*--------- Transition ----------*/
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+/*-------------------------------*/
+
